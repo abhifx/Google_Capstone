@@ -19,12 +19,12 @@ Data Source: Historical trip data to analyze and identify trends for the year 20
 
 This is public data that
 
-Data Organization: There are 12 files with naming convention of YYYYMM-divvy-tripdata and each file includes information for one month, such as the ride id, bike type, start time, end time, start station, end station, start location, end location, and whether the rider is a member or not.
+###Data Organization: There are 12 files with naming convention of YYYYMM-divvy-tripdata and each file includes information for one month, such as the ride id, bike type, start time, end time, start station, end station, start location, end location, and whether the rider is a member or not.
 
-Process
+###Process
 Power BI using power query is used to combine the data as Excel was unable to churn huge data (going beyond 1 million rows) plus cleaning CSV to xlsx format was tough job and resource hungry. 
 
-Data Exploration
+###Data Exploration
 
 Power BI: Each column was previewed and checked for proper column type to proceed further.
 
@@ -45,6 +45,7 @@ Data Visualization: Power BI
 
 First of all, member and casual riders are compared by the type of bikes they are using.
 
+[No. of rides] (https://github.com/abhifx/Google_Capstone/blob/main/Number%20of%20Rides.png)
 image
 
 The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total. Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders.
