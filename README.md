@@ -13,22 +13,22 @@ CSV files downloaded
 Background
 Goal: Understanding the cyclist data and then seeing the potential of converting casual cyclists to member cyclists.
 
+## Data Source: 
 
-Prepare
-Data Source: Historical trip data to analyze and identify trends for the year 2023 which can be downloaded from divvy_tripdata. The data has been made available by Motivate International Inc.
+Historical trip data to analyze and identify trends for the year 2023 which can be downloaded from divvy_tripdata. The data has been made available by Motivate International Inc.
 
 This is public data that
 
-###Data Organization: There are 12 files with naming convention of YYYYMM-divvy-tripdata and each file includes information for one month, such as the ride id, bike type, start time, end time, start station, end station, start location, end location, and whether the rider is a member or not.
+### Data Organization: There are 12 files with the naming convention of YYYYMM-divvy-tripdata and each file includes information for one month, such as the ride id, bike type, start time, end time, start station, end station, start location, end location, and whether the rider is a member or not.
 
-###Process
+### Process
 Power BI using power query is used to combine the data as Excel was unable to churn huge data (going beyond 1 million rows) plus cleaning CSV to xlsx format was tough job and resource hungry. 
 
-###Data Exploration
+### Data Exploration
 
 Power BI: Each column was previewed and checked for the proper column type to proceed further.
 
-#Observations:
+# Observations:
 
 The Ride ID is considered the primary key. However, since one year of data is used, no table combination was required. hence primary key role was stagnated to the counting of records.
 
@@ -39,13 +39,11 @@ The duration was separated and calculated as the difference between ride end tim
 
 No columns were deleted however not all columns were used and could potentially be deleted. 
 
-
-Data Analysis
-Data Visualization: Power BI
+## Data Visualization: Power BI
 
 First of all, member and casual riders are compared by the type of bikes they are using.
 
-##Overall observation
+## Overall observation
 
 ![No. of rides](https://github.com/abhifx/Google_Capstone/blob/main/Number%20of%20Rides.png)
 
@@ -58,7 +56,7 @@ electric bikes peaked at June while classic bikes peaked at August end. This pro
 ## Duration wise observation
 
 ![duration](https://github.com/abhifx/Google_Capstone/blob/main/duration.png)
-When it comes to duration, Casual bike rides take the cake. so if we look at the last discussion, though members make more trips, duration-wise casual bikers do more. accordingly, classic bikes usage increases which is the preferred mode by casual bikers.  
+When it comes to duration, Casual bike rides take the cake. so if we look at the last discussion, though members make more trips, duration-wise casual bikers do more. accordingly, classic bike usage increases which is the preferred mode by casual bikers.  
 
 the casual riders ride more from period April to September. thus classic bike ride duration peaks at August, while electric bike peak at June-July period.
 
@@ -69,11 +67,11 @@ the casual riders ride more from period April to September. thus classic bike ri
 when looking at weekly data, members ride more during weekdays while casual bikers use more during weekends. this can be seen both in duration and number of rides. so the duration anomaly we have seen in the previous slide is caused by casual riders riding a lot more during the weekend. during the weekdays both casual and members ride the same duration.
 
 
-#Conclusion:
+# Conclusion:
 
 Casuals are riding a lot less compared to members. However they not only ride for long, they also ride more during the weekends. 
 
-#Suggestion:
+# Suggestion:
 
 1) Discontinue docked bikes to save cost because of negligible usage and is only used by casual users. thus generating no income.
 2) Marketing campaigns might be conducted in spring and summer at tourist/recreational locations popular among casual riders.
