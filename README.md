@@ -45,29 +45,37 @@ Data Visualization: Power BI
 
 First of all, member and casual riders are compared by the type of bikes they are using.
 
+##Overall observation
+
 ![No. of rides](https://github.com/abhifx/Google_Capstone/blob/main/Number%20of%20Rides.png)
 
-At a glance it can be seen that there more rides by memebers than casual riders. the trend remains higher throughit the month. electric bike is mostly used with classic bikes near to it. curoiosly the docked bike is almost negligently used. we will see further than docked bikes are only used by casual bikers and members dont use the same. 
+At a glance, it can be seen that there more rides by members than casual riders. the trend remains higher throughout the month. electric bike is mostly used with classic bikes near to it. curiously the docked bike is almost negligently used. we will see further that docked bikes are only used by casual bikers and members don't use the same. 
 
 ![ride based on bike type](https://github.com/abhifx/Google_Capstone/blob/main/ride%20by%20bike%20type.png)
 
-electric bikes peaked at June while classic bikes peaked at august end. This probably is a seasonal impact but such data is not available for validation.
+electric bikes peaked at June while classic bikes peaked at August end. This probably is a seasonal impact but such data is not available for validation.
+
+## Duration wise observation
 
 ![duration](https://github.com/abhifx/Google_Capstone/blob/main/duration.png)
-When it comes to duration, Casual bike rides take the cake. so if we look at the last discussion, though members make more trips, duration wise casual bikers do more. accordingly, classic bikes usage increase which is the preferred mode by casual bikers.  
+When it comes to duration, Casual bike rides take the cake. so if we look at the last discussion, though members make more trips, duration-wise casual bikers do more. accordingly, classic bikes usage increases which is the preferred mode by casual bikers.  
 
-the casual riders ride more from period april to september. thus classic bike ride duration peak in august, while electric bike peak at june-july.
+the casual riders ride more from period April to September. thus classic bike ride duration peaks at August, while electric bike peak at June-July period.
 
-when looking at weekly data, members ride more during weekdays while casual bikers use more during weekends. this can be seen both in duration and number of rides. so the duration anomoly we have seen in previos slide is caused by casual riders riding a lot more during weekend. during the weekdays both casual and members ride same duration.
+## weekly ride observation
+
+![weekly data](https://github.com/abhifx/Google_Capstone/blob/main/weekly.png)
+
+when looking at weekly data, members ride more during weekdays while casual bikers use more during weekends. this can be seen both in duration and number of rides. so the duration anomaly we have seen in the previous slide is caused by casual riders riding a lot more during the weekend. during the weekdays both casual and members ride the same duration.
 
 
 #Conclusion:
 
-Casual are riding lot less compared to members. However they not only ride for long, they also ride more during the weekends. 
+Casuals are riding a lot less compared to members. However they not only ride for long, they also ride more during the weekends. 
 
-Suggestion:
+#Suggestion:
 
-1) discontinue docked bike to save cost because of negligble usage and is only used by casual users. thus generating no income.
+1) Discontinue docked bikes to save cost because of negligible usage and is only used by casual users. thus generating no income.
 2) Marketing campaigns might be conducted in spring and summer at tourist/recreational locations popular among casual riders.
 3) Casual riders are most active on weekends and during the summer and spring, thus they may be offered seasonal or weekend-only memberships.
 4) Casual riders use their bikes for longer durations than members. Offering discounts for longer rides may incentivize casual riders and entice members to ride for longer periods of time.
