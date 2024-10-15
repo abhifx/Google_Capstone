@@ -45,7 +45,7 @@ Data Visualization: Power BI
 
 First of all, member and casual riders are compared by the type of bikes they are using.
 
-[No. of rides] (https://github.com/abhifx/Google_Capstone/blob/main/Number%20of%20Rides.png)
+[No. of rides](https://github.com/abhifx/Google_Capstone/blob/main/Number%20of%20Rides.png)
 image
 
 The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total. Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders.
