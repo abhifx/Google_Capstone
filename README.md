@@ -1,14 +1,14 @@
 # Data Analytics Capstone Project for Google Data Analytics Course
-Course: Google Data Analytics Capstone: Complete a Case Study
+[Course: Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/professional-certificates/google-data-analytics)
 
-# Introduction
+## Introduction
 In pursuant of publishing a case study for data analytics assuming the role of a junior data analyst at a fictional company
 
-# Quick links:
+## Quick links:
 Data Source: divvy_tripdata [for 2023]
 CSV files downloaded
 
-# Data Visualizations: Power BI
+## Data Visualizations: Power BI
 
 Background
 Goal: Understanding the cyclist data and then seeing the potential of converting casual cyclists to member cyclists.
