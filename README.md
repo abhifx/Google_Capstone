@@ -53,7 +53,7 @@ At a glance it can be seen that there more rides by memebers than casual riders.
 
 electric bikes peaked at June while classic bikes peaked at august end. This probably is a seasonal impact but such data is not available for validation.
 
-!(https://github.com/abhifx/Google_Capstone/blob/main/duration.png)
+![duration](https://github.com/abhifx/Google_Capstone/blob/main/duration.png)
 When it comes to duration, Casual bike rides take the cake. so if we look at the last discussion, though members make more trips, duration wise casual bikers do more. accordingly, classic bikes usage increase which is the preferred mode by casual bikers.  
 
 the casual riders ride more from period april to september. thus classic bike ride duration peak in august, while electric bike peak at june-july.
