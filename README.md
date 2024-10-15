@@ -26,11 +26,11 @@ Power BI using power query is used to combine the data as Excel was unable to ch
 
 ###Data Exploration
 
-Power BI: Each column was previewed and checked for proper column type to proceed further.
+Power BI: Each column was previewed and checked for the proper column type to proceed further.
 
 Observations:
 
-The Ride ID is considered the primary key. however since ine year of data is used, no table combination was required. hence primary key role was stagnated to counting of records.
+The Ride ID is considered the primary key. however since one year of data is used, no table combination was required. hence primary key role was stagnated to counting of records.
 
 The Data has null values in start location and this could be replaced using latitude and longitude data, for this purpose, this is ignored. 
 Th ride ID is the primary key and no duplicate value was found plus length of the ride ID (checked with len) was 16 and hence considered correct
@@ -45,7 +45,7 @@ Data Visualization: Power BI
 
 First of all, member and casual riders are compared by the type of bikes they are using.
 
-[No. of rides](https://github.com/abhifx/Google_Capstone/blob/main/Number%20of%20Rides.png)
+![No. of rides](https://github.com/abhifx/Google_Capstone/blob/main/Number%20of%20Rides.png)
 image
 
 The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total. Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders.
