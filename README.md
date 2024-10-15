@@ -30,9 +30,9 @@ Power BI: Each column was previewed and checked for the proper column type to pr
 
 Observations:
 
-The Ride ID is considered the primary key. however since one year of data is used, no table combination was required. hence primary key role was stagnated to counting of records.
+The Ride ID is considered the primary key. However, since one year of data is used, no table combination was required. hence primary key role was stagnated to the counting of records.
 
-The Data has null values in start location and this could be replaced using latitude and longitude data, for this purpose, this is ignored. 
+The Data has null values in the start location and this could be replaced using latitude and longitude data, for this purpose, this is ignored. 
 Th ride ID is the primary key and no duplicate value was found plus length of the ride ID (checked with len) was 16 and hence considered correct
 
 The duration was separated and calculated as the difference between ride end time and ride beginning time. 
@@ -46,7 +46,10 @@ Data Visualization: Power BI
 First of all, member and casual riders are compared by the type of bikes they are using.
 
 ![No. of rides](https://github.com/abhifx/Google_Capstone/blob/main/Number%20of%20Rides.png)
-image
+
+At a glance it can be seen that there more rides by memebers than casual riders. the trend remains higher throughit the month. electric bike is mostly used with classic bikes near to it. curoiosly the docked bike is almost negligently used. we will see further than docked bikes are only used by casual bikers and members dont use the same. 
+
+
 
 The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total. Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders.
 
