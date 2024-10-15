@@ -19,7 +19,8 @@ Historical trip data to analyze and identify trends for the year 2023 which can 
 
 This is public data that
 
-### Data Organization: There are 12 files with the naming convention of YYYYMM-divvy-tripdata and each file includes information for one month, such as the ride id, bike type, start time, end time, start station, end station, start location, end location, and whether the rider is a member or not.
+### Data Organization: 
+There are 12 files with the naming convention of YYYYMM-divvy-tripdata and each file includes information for one month, such as the ride id, bike type, start time, end time, start station, end station, start location, end location, and whether the rider is a member or not.
 
 ### Process
 Power BI using power query is used to combine the data as Excel was unable to churn huge data (going beyond 1 million rows) plus cleaning CSV to xlsx format was tough job and resource hungry. 
